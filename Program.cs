@@ -31,6 +31,7 @@ foreach (string Type in Types)
     Console.WriteLine(Type);
 }
 Console.WriteLine($"Of the {Types.Length} types, how many were introduced after Generation 1?"); 
+    Answer = Console.ReadLine();
 
 do
 {
